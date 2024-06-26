@@ -1,0 +1,63 @@
+@import './base.css';
+
+html {
+  height: 100%;
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  text-align: center;
+  color: #00ff00;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+a,
+.coffee {
+  text-decoration: none;
+  color: hsla(24.6, 33.7%, 32.5%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+main {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  text-align: center;
+  padding: 14px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  #app {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}
