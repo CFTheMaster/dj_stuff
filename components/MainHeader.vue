@@ -1,11 +1,11 @@
 <template>
-    <head>
+    <header>
         <title>My DJ stuff</title>
 
         <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
         <meta name="theme-color" content="#6600cc"/>
-        <link rel="icon" type="iamge/x-icon" href="/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="/media/e5eb6e925321b220d4785772fa1096eb.png">
         <meta property="og:image" content="/media/e5eb6e925321b220d4785772fa1096eb.png" />
 
         <meta content="My DJ Stuff" property="og:title"/>
@@ -19,6 +19,5 @@
         <meta property="og:site_name" content="CFs DJ Stuff"/>
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@computerfreaker"/>
-    </head>
-    
+    </header>
 </template>
