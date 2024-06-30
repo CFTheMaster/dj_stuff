@@ -33,7 +33,7 @@
     flex-flow: wrap;
     padding: 30px 30px 20px 30px;
     color: #2f2f2f;
-    background-color: #fff;
+    background-color: #6600cc;
     border-top: 1px solid #e5e5e5;
   }
   .footer > * {
@@ -43,6 +43,7 @@
   .footer__addr {
     margin-right: 1.25em;
     margin-bottom: 2em;
+    color: #fff;
   }
   
   .footer__logo {
