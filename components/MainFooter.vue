@@ -16,6 +16,15 @@
           </ul>
         </li>
       </ul>
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <ul class="nav__ul">
+            <li>
+              <a href="https://computerfreaker.com">Main Page</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
   
       <div class="legal">
         <p>&copy; 2024 computerfreaker. All rights reserved.</p>
