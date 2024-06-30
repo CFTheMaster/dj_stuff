@@ -60,7 +60,7 @@
   body {
     min-height: 100vh;
     color: var(--color-text);
-    background: url('@/assets/VRChat_2024-06-17_22-51-27.801_1920x1080.png');
+    background: url('@/media/VRChat_2024-06-17_22-51-27.801_1920x1080.png');
     background-size: 100% 100%;
     backdrop-filter: blur(9px);
     transition:
