@@ -22,8 +22,7 @@
         </ul>
       </div>
       <div>
-        <h2>You can find my current socials on the <a href="https://computerfreaker.com">homepage</a></h2>
-        
+        <h2>You can find my current socials on the <a class="gay" href="https://computerfreaker.com">homepage</a></h2>
       </div>
     </main>  
 </template>

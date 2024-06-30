@@ -19,6 +19,14 @@ a,
   padding: 3px;
 }
 
+a,
+.gay {
+  text-decoration: none;
+  color: #5511cc;
+  transition: 0.4s;
+  padding: 3px;
+}
+
 main{
   display: flex;
   flex-direction: column;
