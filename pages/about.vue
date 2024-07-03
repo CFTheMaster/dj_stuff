@@ -27,7 +27,6 @@ const dayjs = useDayjs();
         </p>
       </div>
     </div>
-    <div><h2>I have made music for the following genres: </h2></div>
       <div>
         <p>click this link to see all <router-link :to="{ name: 'genres' }">genres</router-link> that I have played</p>
       </div>
