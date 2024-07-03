@@ -1,9 +1,10 @@
 <template>
     <main>
       <div>
-        <h1>About me:</h1>
+        <h1>Short Intro.</h1>
         <p class="about">
           Hello friends, my name is computerfreaker / DJ name Purple Time.
+          <br>I like to make music, programming and technology.
         </p>
       </div>
       <div>
