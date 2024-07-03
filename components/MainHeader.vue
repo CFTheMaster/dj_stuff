@@ -20,4 +20,7 @@
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@computerfreaker"/>
     </header>
+    <div class="header">
+        <h1>Welcome to my page!</h1>
+    </div>
 </template>

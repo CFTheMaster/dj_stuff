@@ -1,7 +1,5 @@
 @import './base.css';
 
-
-
 a,
 .green {
   text-decoration: none;
@@ -38,10 +36,18 @@ main{
   align-self: center;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 footer {
   flex-shrink: 0;
+}
+
+.header {
+  flex-shrink: 0;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (hover: hover) {

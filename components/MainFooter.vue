@@ -9,9 +9,11 @@
             <li>
               <router-link :to="{ name: 'index' }">Home</router-link>
             </li>
-  
             <li>
               <router-link :to="{ name: 'about' }">About</router-link>
+            </li>
+            <li>
+              <router-link :to="{ name: 'genres' }">Genres</router-link>
             </li>
           </ul>
         </li>
@@ -21,6 +23,9 @@
           <ul class="nav__ul">
             <li>
               <a href="https://computerfreaker.com">Main Page</a>
+            </li>
+            <li>
+              <a href="https://github.com/CFTheMaster">Other Projects (Not Music Related)</a>
             </li>
           </ul>
         </li>
