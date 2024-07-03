@@ -27,7 +27,7 @@ jobs:
         with:
           path: ./.output/public
 
-  # Deployment job
+  # Deploy job
   deploy:
     # Add a dependency to the build job
     needs: build
@@ -37,9 +37,9 @@ jobs:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
 
-    # Deploy to the github_pages environment
+    # Deploy to the github-pages environment
     environment:
-      name: github_pages
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     # Specify runner + deployment step
@@ -47,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
